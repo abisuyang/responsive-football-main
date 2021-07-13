@@ -1,0 +1,129 @@
+/* --------common style----- */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+
+/*--------- header section style------ */
+
+.top-section {
+    background-color: darkblue;
+    width: 100;
+    margin: 0%;
+}
+
+.navbar {
+    overflow: auto;
+    background-color: darkblue;
+    width: 100%;
+
+}
+
+.menu-bar a {
+    float: left;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    padding-left: 15px;
+    text-align: center;
+    color: white;
+
+}
+
+.login-button {
+    float: right;
+    background-color: brown;
+    border-radius: 12px;
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    color: white;
+}
+
+..login-button a {
+    text-decoration: none;
+}
+
+.top-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.top-image img {
+    align-items: center;
+
+
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+/*------------
+     blog
+     ---------- */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: violet;
+}
+
+.container {
+    background-color: tomato;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 10px;
+}
+
+.blog-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 26px;
+    justify-content: center;
+
+}
+
+.blogs {
+    background-color: yellowgreen;
+    margin-top: 40px;
+
+}
+
+.thumbnail img {
+    height: 280px;
+    width: 250px;
+}
+
+
+/*-------------- 
+  footer section
+----------------- */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 550px;
+    height: 150px;
+}
+
+.social-icon {
+    font-size: 30px;
+}
